@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Cafruti</title>
+    <title>Unity Web Player | Cafruti</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
@@ -57,12 +57,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WEB3.loader.js";
+      var loaderUrl = buildUrl + "/WEB4.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/WEB3.data.unityweb",
-        frameworkUrl: buildUrl + "/WEB3.framework.js.unityweb",
-        codeUrl: buildUrl + "/WEB3.wasm.unityweb",
+        dataUrl: buildUrl + "/WEB4.data.unityweb",
+        frameworkUrl: buildUrl + "/WEB4.framework.js.unityweb",
+        codeUrl: buildUrl + "/WEB4.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Papi Games",
         productName: "Cafruti",
@@ -85,7 +85,7 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
-      canvas.style.background = "url('" + buildUrl + "/WEB3.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/WEB4.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
