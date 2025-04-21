@@ -1,9 +1,9 @@
 const cacheName = "Papi Games-Cafruti-2.0";
 const contentToCache = [
-    "Build/WEB6.loader.js",
-    "Build/WEB6.framework.js.unityweb",
-    "Build/WEB6.data.unityweb",
-    "Build/WEB6.wasm.unityweb",
+    "Build/WEB7.loader.js",
+    "Build/WEB7.framework.js.unityweb",
+    "Build/WEB7.data.unityweb",
+    "Build/WEB7.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
